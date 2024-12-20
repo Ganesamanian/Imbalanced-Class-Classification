@@ -20,7 +20,7 @@ This project aims to classify cast parts as "Good" or "Bad" based on temperature
 
 - **Modeling:**
   - Implemented Random Forest Classifier with SMOTE to address label imbalance.
-  - Evaluated model performance using 5-fold cross-validation for accuracy and F1-score.
+  - Evaluated model performance using 5-fold cross-validation for F1-score.
 
 ---
 
@@ -40,7 +40,7 @@ This project aims to classify cast parts as "Good" or "Bad" based on temperature
 ### 4. Model Training & Evaluation
 - Random Forest Classifier was trained and evaluated using 5-fold cross-validation.
 - SMOTE was applied to handle the class imbalance during model training.
-- The performance was assessed using metrics such as **Accuracy** and **F1-score**.
+- The performance was assessed using metrics such as **F1-score**.
 
 ---
 
@@ -84,7 +84,7 @@ pip install -r requirements.txt
     cd Imbalanced-Class-Classification
     ```
 
-2. Open Notebook and execute the cell
+2. Open Notebook `Classifying casting parts in detail.ipynb` and execute the cells
     
 
 ## License
